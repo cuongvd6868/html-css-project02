@@ -30,8 +30,18 @@ body{
 
 
 header{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     background-color: #FFFCF4;
+}
+
+.header-fixed{
+    background-color: #FFFCF4;
+    position: sticky;
+    top: -10px;
+    padding-bottom: 15px;
+    z-index: 1;
 }
 
 .navbar{
